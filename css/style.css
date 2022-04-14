@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-color: #f9f9f9;
+}
+
+.preheader{
+
+  background-color: #111618;  
+  height: 60px;
+  color: #fff;
+  padding-top: 15px;
+}
+.preheader ul{
+
+    list-style: none;
+}
+
+.preheader li{
+
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.preheader li a{
+
+    color: #a7a9aa;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.headerMain .mainMenu{
+
+    list-style: none;
+    margin-top: 20px;
+}
+
+.headerMain .mainMenu li{
+
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.headerMain .mainMenu li a{
+
+    color: #8c8c8c;
+    text-decoration: none;
+}
+ .headerMain img{
+
+    margin-top: 10px;
+ }
+
+ .headerMain .mainMenu .freeQuoteBtn a{
+
+    background-color : #4a3af2;
+    padding: 9px;
+    color: white;
+    border: 2px solid #4a3af2;
+    transition: 0.3s;
+ }
+
+ .headerMain .mainMenu .freeQuoteBtn a:hover{
+
+    color: #4a3af2;
+    background-color: transparent;
+ }
+
+ .heroSection{
+
+    background-image: url('../imagees/pozadina.jpg');
+    padding-top: 125px;
+    padding-bottom: 115px;
+    background-position:center;
+    background-size: cover;
+ }
+
+.heroSection h1{
+
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 62px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.heroSection p{
+
+    color: #fff;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.heroSection a{
+
+    color:#fff;
+    background-color:#4a3af2;
+    transition: 0.3s;
+    border: 1px solid #4a3af2;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.heroSection a:hover{
+
+    color: white;
+    background-color: transparent;
+}
+/*===========================================*/
+.sevicesSection{
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sevicesSection h3{
+
+    text-align: center;
+    color: #335af6;
+}
+.sevicesSection h1{
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+.sevicesSection p{
+
+    text-align: center;
+    color: #a1a1a1;
+    text-size-adjust: 30px;
+}
+/*++++++++++++++++++++++++++++++++*/
+.sevicesSection .servicesItem1{
+
+    background-color: #1b1f20;
+    -webkit-box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.5);
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+    margin-top: 50px;
+}
+.sevicesSection .servicesItem1:hover{
+    
+    margin-top: -10px;
+    transition: 0.5s;
+}
+.sevicesSection .servicesItem1 h4{
+
+    text-transform: uppercase;
+}
+
+.sevicesSection .servicesItem1 a{
+
+    background-color: transparent;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #fff;
+    color: white;
+    
+}
+.sevicesSection .servicesItem1 a:hover{
+
+    background-color:#2b66f8;
+    cursor: pointer;
+    transition: 0.5s;
+}
+/*++++++++++++++++++++++++++++++++*/
+.sevicesSection .servicesItem2{
+
+    background-color: #521194;
+    -webkit-box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.5);
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+    margin-top: 30px;
+    
+}
+.sevicesSection .servicesItem2:hover{
+    
+    margin-top: -5px;
+    transition: 0.5s;
+}
+
+.sevicesSection .servicesItem2 h4{
+
+    text-transform: uppercase;
+}
+
+.sevicesSection .servicesItem2 a{
+
+    background-color: transparent;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #fff;
+    color: white;
+    
+}
+.sevicesSection .servicesItem2 a:hover{
+
+    background-color:#2b66f8;
+    cursor: pointer;
+    transition: 0.5s;
+}
+/*++++++++++++++++++++++++++++++++*/
+.sevicesSection .servicesItem3{
+
+    background-color: #1b1f20;
+    -webkit-box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.5);
+box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.5);
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+    margin-top: 50px;
+}
+
+.sevicesSection .servicesItem3:hover{
+    
+    margin-top: -10px;
+    transition: 0.5s;
+}
+
+.sevicesSection .servicesItem3 h4{
+
+    text-transform: uppercase;
+}
+
+.sevicesSection .servicesItem3 a{
+
+    background-color: transparent;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #fff;
+    color: white;
+    
+}
+.sevicesSection .servicesItem3 a:hover{
+
+    background-color:#2b66f8;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/*====================================================*/
+
+.howItWork{
+
+    text-align: center;
+    color: white;
+    background-image: url("../imagees/slika4.jpg");
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.howItWork h6{
+
+    color: #2b65f7;
+}
+
+.howItWork a{
+
+    position: relative;
+    bottom: -30px;
+}
+
+.customerSay{
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.customerSay h2{
+
+    text-align: left;
+    padding-bottom: 20px;
+
+}
+
+.customerSay .jack{
+    background-image: url("../imagees/covek.jpg");
+    background-size: cover;
+    height: 370px;
+    background-position: center;
+    text-align:inherit;
+    color: white;
+}
+.customerSay .derek{
+    background-image: url("../imagees/covek2.jpg");
+    background-size: cover;
+    height: 370px;
+    background-position: center;
+    color: white;
+}
+.customerSay .shawn{
+    background-image: url("../imagees/covek3.jpg");
+    background-size: cover;
+    height: 370px;
+    background-position: center;
+    color: white;
+}
+.customerSay .fender{
+    background-image: url("../imagees/covek4.jpg");
+    background-size: cover;
+    height: 370px;
+    background-position: center;
+    color: white;
+}
