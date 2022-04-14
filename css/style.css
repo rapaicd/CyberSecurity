@@ -88,6 +88,16 @@ body{
     margin-bottom: 15px;
 }
 
+.heroSection h1:before{
+
+    content: "";
+    display: block;
+    width: 95px;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
 .heroSection p{
 
     color: #fff;
@@ -277,6 +287,8 @@ box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.5);
     bottom: -30px;
 }
 
+/*====================================================*/
+
 .customerSay{
 
     padding-top: 100px;
@@ -304,6 +316,7 @@ box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.5);
     height: 370px;
     background-position: center;
     color: white;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .customerSay .shawn{
     background-image: url("../imagees/covek3.jpg");
@@ -318,4 +331,100 @@ box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.5);
     height: 370px;
     background-position: center;
     color: white;
+}
+
+.customerSay .jack .text{
+
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    padding: 20px;
+}
+
+.customerSay .derek .text{
+
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    padding: 20px;
+}
+
+.customerSay .shawn .text{
+
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    padding: 20px;
+}
+
+.customerSay .fender .text{
+
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    padding: 20px;
+}
+
+.customerSay .jack .text .bottom{
+
+    position: relative;
+    bottom: -250px;
+}
+.customerSay .derek .text .bottom{
+
+    position: relative;
+    bottom: -250px;
+}
+.customerSay .shawn .text .bottom{
+
+    position: relative;
+    bottom: -250px;
+}
+.customerSay .fender .text .bottom{
+
+    position: relative;
+    bottom: -250px;
+}
+
+/*====================================================*/
+
+.aboutUs{
+
+    background-image: url("../imagees/slika4.jpg");
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.aboutUs img{
+
+    display: block;
+    margin-left: 200px;
+    margin-top: 20px;
+    width: 430px;
+    height: 430px;
+}
+.aboutUs h2{
+
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.aboutUs p{
+
+    padding-bottom: 20px;
+}
+.aboutUs h5:before{
+
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #335af6;
+    margin-right: 10px;
+    position: relative;
+    top: -3px
+}
+.aboutUs h5{
+
+    border-bottom: 1px dotted #8c8c8c;
+    padding-bottom: 10px;
 }
